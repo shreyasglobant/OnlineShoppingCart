@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk1.8.0_66\jre\..\bin\javadoc.exe" -J-Dhttp.proxySet=true -J-Dhttp.proxyHost=proxy.corp.globant.com -J-Dhttp.proxyPort=3128 "-J-Dhttp.proxyUser=\"gokods\"" "-J-Dhttp.proxyPassword=\"Globant@0\"" @options @packages

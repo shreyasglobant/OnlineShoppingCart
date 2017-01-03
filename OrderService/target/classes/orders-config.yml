@@ -1,0 +1,15 @@
+# Spring properties
+# Set Application name as orders-service
+spring:
+  application:
+     name: orders-service
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+# HTTP Server
+server:
+  port: 2224   # HTTP (Tomcat) port

@@ -1,13 +1,14 @@
 package com.globant.poc.config;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.web.bind.annotation.RequestMapping;
 
-import org.springframework.boot.*;
-import org.springframework.boot.autoconfigure.*;
-import org.springframework.web.bind.annotation.*;
-
-
-@RestController
+//Defines this application as a Spring Boot Application.
 @EnableAutoConfiguration
+//Microservice registration and discovery enabled.
+@EnableDiscoveryClient
 public class OrderApplicationConfig {
 
 	@RequestMapping("/")
