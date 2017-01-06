@@ -1,0 +1,13 @@
+/target/
+
+/.settings/
+/src/main/resources/static/node_modules
+/src/main/resources/static/typings
+/src/main/resources/static/app/*.js
+/src/main/resources/static/app/*.js.map
+/src/main/resources/static/app/shared/*.js
+/src/main/resources/static/app/shared/*.js.map
+/src/main/resources/static/app/components/*.js
+/src/main/resources/static/app/components/*.js.map
+*.classpath
+*.project
